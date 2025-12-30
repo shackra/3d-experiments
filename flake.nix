@@ -56,6 +56,8 @@
               gccStdenv
               ogre
             ];
+
+            SDL_VIDEODRIVER = "x11"; # let's use XWayland in the mean time
           };
         }
       );

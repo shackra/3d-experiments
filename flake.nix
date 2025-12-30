@@ -47,7 +47,9 @@
               nixd
               cmake-language-server
               ccls
+              just-lsp
 
+              just
               cmake
               cmake-format
               cmake-lint

@@ -6,6 +6,7 @@ int main(int argc, char *argv[]) {
   ctx.initApp();
 
   Ogre::ResourceGroupManager::getSingleton().addResourceLocation(
+      // TODO: find a way to make this directory always point to the right place
       "cube/mesh/",
       "FileSystem",
       Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME);

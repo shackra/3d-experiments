@@ -45,15 +45,15 @@
             packages = with pkgs; [
               nixpkgs-fmt
               nixd
-              cmake-language-server
-              ccls
               just-lsp
 
               just
               cmake
+              cmake-language-server
               cmake-format
               cmake-lint
               gccStdenv
+              clang-tools
               ogre
             ];
 
